@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(94, 53, 53);
+}
+
+
+form {
+    background-color: azure;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 300px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+img {   
+    min-width: 300px;
+    width: 49.7%;
+    object-fit: fill;
+    height: 600px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
